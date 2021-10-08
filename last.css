@@ -1,0 +1,15 @@
+
+
+h1.zagolovok{
+  position: relative;text-align: center !important;
+}
+
+/* !important це важливість */
+
+h2.zagolovok{
+  position: relative;text-align: center;
+}
+
+.blue {
+  color: rgba(0, 255, 255, .5);
+}

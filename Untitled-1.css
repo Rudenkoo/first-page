@@ -1,0 +1,136 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h1.zagolovok{
+  position: relative;text-align: left;
+  color: rgb(0, 255, 200);
+  font-size: 46px;
+  font-style: italic;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 0 3px red;
+  background-image: url(img/kobzar.jpg);
+  background-size:  contain;
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+strong{
+  font-weight: bold;
+}
+
+/* img{
+  visibility: hidden;
+} скрить картинку*/
+
+p{
+  text-indent: 30px;
+  word-spacing: unset; /*відступи між словами*/
+  /* white-space: nowrap;  текст нельзя переносить*/
+  opacity: 77;
+}
+
+blockquote{
+  text-align: right;
+  text-transform: uppercase ;
+}
+
+em{
+  font-style: italic;
+}
+
+.parent{
+  background-color: red;
+}
+
+.child{
+  background-color: blue;
+}
+
+.parent,
+.child{
+width: 50vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+.fff{
+  width: 300px;
+  height: 150px;
+  background-color: lightgray;
+  border-width: 3px;
+  border-style: ridge;
+  border-color: blueviolet;
+  margin-top: 10px;
+  position: relative;text-align: center;
+}
+
+.fff2{
+  width: 800px;
+  height: 300px;
+  background-color: lightgray;
+  border-top: 5px solid blue;
+  margin-top: 10px;
+  border-bottom: 7px dashed green;
+  border-right: 10px dotted red;
+  border-left: 15px double black;
+}
+
+.fff3{
+  width: 300px;
+  height: 150px;
+  background-color: greenyellow;
+  margin-top: 10px;
+  border: 30px solid #40c4c8;
+  border-image: url(img/shevmonum.jpg); 40 round round;
+}
+
+.fff4{
+  width: 500px;
+  height: 250px;
+  background-color: dodgerblue;
+  border: 2px solid black;
+  border-radius: 10px 50px 70px 100px; /* перше це заокруглення лівого верхнього кута, а долі по годинниковій стрілці*/
+  margin-top: 10px;
+}
+
+.fff5{
+  width: 57px;
+  height: 20px;
+  color: #FFFFFF;
+  background-color: green;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center
+}
+
+.fff6{
+  width: 500px;
+  height: 250px;
+  outline: 2px solid blue;
+}
+
+.blockquote1{
+  padding: 10px;
+  border-right: 3px dotted darkorange;
+  border-left: 3px dotted darkorange;
+}
+
+.circul{
+  width: 100px;
+  height: 100px;
+  background-color: darkorchid;
+  border-radius: 50%;
+}
+
+.fff9{
+  width: 0px;
+  height: 0px;
+  border: 40px solid transparent;
+  border-left-color: red;
+  border-right: 0px;
+}
